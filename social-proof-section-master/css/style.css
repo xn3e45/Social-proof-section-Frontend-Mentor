@@ -1,0 +1,139 @@
+body {
+  display: grid;
+  padding: 6.25rem;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+
+.container {
+  grid-column: 1;
+  grid-row: 1;
+  width: 23.44rem;
+}
+
+.title {
+  width: 18.75rem;
+    color: 	#502050;
+}
+
+.container-2 {
+  grid-column: 5 / 10;
+  grid-row: 1;
+}
+
+.first-review{
+  display: flex;
+  max-width: 100%;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Spartan', sans-serif;
+  color: 	#502050;
+  position: relative;
+  right: 100px;
+}
+
+.second-review {
+  display: flex;
+  max-width: 100%;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Spartan', sans-serif;
+  color: 	#502050;
+  position: relative;
+  right: 50px;
+}
+
+.third-review {
+  display: flex;
+  max-width: 100%;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Spartan', sans-serif;
+  color: 	#502050;
+}
+
+.stars {
+  padding-right: 10px;
+  max-width: 50%;
+  align-self: flex-start;
+  margin: auto 0;
+}
+
+.review-title {
+  padding-left: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  grid-column: 1/10;
+}
+
+.card-profile {
+  display: flex;
+}
+
+.card-txt {
+  padding-left: 15px;
+}
+
+.card-img {
+border-radius: 50%;
+ width: 55px;
+ align-self: flex-start;
+ position: relative;
+ top: 15px;
+}
+
+.card-description {
+  text-align: left;
+  color: 	#f7f2f7;
+}
+
+.card-1 {
+  background-color: #502050;
+  border-radius: 10px;
+  margin: 0 20px 0 0;
+  padding: 20px;
+}
+
+.card-2 {
+  background-color: #502050;
+  border-radius: 10px;
+  margin: 0 20px 0 0;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.card-3 {
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+}
+
+.name {
+  color: white;
+}
+
+.secondary {
+  color: #ee68a4;
+}
